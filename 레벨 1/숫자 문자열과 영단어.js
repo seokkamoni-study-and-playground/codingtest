@@ -18,7 +18,7 @@ function solution(s) {
   const s_arr = [...s];
 
   let word = "";
-  s_arr.forEach((item, index) => {
+  s_arr.forEach((item) => {
     const isNumber = isNaN(item) === false;
 
     if (isNumber) {
