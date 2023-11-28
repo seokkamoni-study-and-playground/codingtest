@@ -14,7 +14,7 @@ function solution(numbers) {
     }
   }
 
-  anwser = answer.sort((a, b) => a - b);
+  answer.sort((a, b) => a - b);
 
   return answer;
 }
